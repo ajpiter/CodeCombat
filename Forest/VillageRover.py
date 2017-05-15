@@ -1,14 +1,16 @@
-# Munchkins are attacking!
-# The swarms will come at regular intervals.
-# Whenever you can, cleave to clear the mass of enemies.
-
-while True:
+# This defines a function called findAndAttackEnemy
+def findAndAttackEnemy():
     enemy = hero.findNearestEnemy()
-    # Use an if-statement with isReady to check "cleave":
-    if hero.isReady("cleave"):
-        # Cleave!
-        hero.cleave(enemy)
-    # Else, if cleave is not ready:
-    else:
-        # Attack the nearest ogre!
+    if enemy:
         hero.attack(enemy)
+
+# This code is not part of the function.
+while True:
+    # Now you can patrol the village using findAndAttackEnemy
+    hero.moveXY(35, 34)
+    findAndAttackEnemy()
+    
+    # Now move to the right entrance.
+    hero.moveXY(60, 31)
+    # Use findAndAttackEnemy
+    findAndAttackEnemy()
