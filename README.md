@@ -12,6 +12,6 @@ Play for yourself at CodeCombat.com
 
 As you progress through different worlds, you will employ more complex coding skills. The skills needed for each world are listed below: 
 
-'\t'In the Dungeon you will learn how to use syntax, methods, parameters, strings, loops, and variables. 
-'\t'In the Forest you will learn how to write if/else statements, boolean logic, relational operators, functions, object properties, event handeling, and input handeling. 
-'\t'In the Desert you will learn arithmetic, counters, while-loops, break, continue, arrays, string comparison, and finding min/max. 
+In the Dungeon you will learn how to use syntax, methods, parameters, strings, loops, and variables. 
+In the Forest you will learn how to write if/else statements, boolean logic, relational operators, functions, object properties, event handeling, and input handeling. 
+"\t"In the Desert you will learn arithmetic, counters, while-loops, break, continue, arrays, string comparison, and finding min/max. 
